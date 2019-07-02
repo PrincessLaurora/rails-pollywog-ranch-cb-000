@@ -64,6 +64,6 @@ class TadpolesController < ApplicationController
     end
 
     def tadpole_params
-      params.require(:tadpole).permit(:name, :color, :frog_id, :pond)
+      params.require(:tadpole).permit(:name, :color, :frog_id)
     end
 end
