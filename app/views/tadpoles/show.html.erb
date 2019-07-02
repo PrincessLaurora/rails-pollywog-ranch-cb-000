@@ -2,7 +2,7 @@
   <h1><%= @tadpole.name %> the Tadpole</h1>
 
 <%= form_tag metamorphose_path(@tadpole) do %>
-  <% f.submit 'Become a frog', :class => 'btn btn-primary' %>
+  <% submit_tag 'Become a frog', :class => 'btn btn-primary' %>
   <%end%>
   <!-- make form to make "Become a frog" button here -->
   <!-- the form should post to /tadpoles/:id/metamorphose -->
